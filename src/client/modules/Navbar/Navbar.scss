@@ -1,0 +1,18 @@
+header {
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  nav {
+    ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      li {
+        width: 100px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
