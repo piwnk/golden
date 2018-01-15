@@ -1,0 +1,24 @@
+#services .services {
+  display: flex;
+  margin-top: 120px;
+  justify-content: center;
+}
+
+#services .services .service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  margin: 0 20px;
+}
+
+#services .services .service .img-wrapper {
+  border: 3px solid #fdd136;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

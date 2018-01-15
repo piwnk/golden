@@ -1,0 +1,72 @@
+#contact {
+  background: url("MapImage.png") #212121;
+  background-position: 400px -480px;
+  height: calc(100vh - 50px);
+  justify-content: space-between;
+}
+
+#contact .section-title h1 {
+  color: white;
+}
+
+#contact .section-title .section-title p {
+  color: #777777;
+}
+
+form input,
+form textarea {
+  border: 0;
+  border-radius: 3px;
+  min-width: 400px;
+  font-family: "Montserrat";
+  padding-left: 10px;
+}
+
+form > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form > div div {
+  display: grid;
+  grid-gap: 15px;
+}
+
+form > div input {
+  height: 50px;
+  margin: 0 10px;
+}
+
+form > div textarea {
+  padding-top: 10px;
+  height: 175px;
+}
+
+form .submit-btn {
+  margin: 30px;
+  width: 240px;
+  height: 65px;
+  background-color: #fdd135;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer {
+  background: white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #555555;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.footer .social {
+  background: #212121;
+  color: white;
+}

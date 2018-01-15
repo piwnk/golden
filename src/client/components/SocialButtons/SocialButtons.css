@@ -1,0 +1,16 @@
+.socials, .socials * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials .social {
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f9f9f9;
+  border: 3px solid #212121;
+  margin: 10px;
+  font-size: 1.2rem;
+}

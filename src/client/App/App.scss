@@ -1,0 +1,44 @@
+.app {
+  text-align: center;
+}
+
+.main {
+  section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    // height: calc(100vh - 50px);
+  }
+}
+
+
+.caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: rgb(34, 34, 34);
+    font-family: "Montserrat";
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  p {
+    font-size: 14px;
+    font-family: "RobotoSlab";
+    font-style: italic; 
+    letter-spacing: 0px;
+    color: rgb(119, 119, 119);
+    text-align: center;
+    margin: 10px auto;
+  }
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

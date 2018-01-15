@@ -1,0 +1,68 @@
+#contact {
+  background: url('MapImage.png') #212121; // background-size: 250%;
+  background-position: 400px -480px;
+  height: calc(100vh - 50px);
+  justify-content: space-between;
+  .section-title {
+    h1 {
+      color: white;
+    }
+    .section-title p {
+      color: rgb(119, 119, 119);
+    }
+  }
+}
+
+form {
+  input,
+  textarea {
+    border: 0;
+    border-radius: 3px;
+    min-width: 400px;
+    font-family: "Montserrat";
+    padding-left: 10px;
+  }
+  &>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+      display: grid;
+      grid-gap: 15px;
+    }
+    input {
+      height: 50px;
+      margin: 0 10px;
+    }
+    textarea {
+      padding-top: 10px;
+      height: 175px;
+    }
+  }
+  .submit-btn {
+    margin: 30px;
+    width: 240px;
+    height: 65px;
+    background-color: #fdd135;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+
+.footer {
+  background: white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: rgb(85, 85, 85);
+  font-family: "Montserrat";
+  font-weight: 700;
+  .social {
+    background: #212121;
+    color: white;
+  }
+}
